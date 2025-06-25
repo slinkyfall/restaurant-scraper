@@ -1,0 +1,28 @@
+{
+  "resumen_general": {
+    "total_restaurantes": 180,
+    "codigos_postales_analizados": [
+      "10001",
+      "75001",
+      "SW1A 1AA"
+    ],
+    "restaurantes_por_codigo_postal": {
+      "10001": 60,
+      "75001": 60,
+      "SW1A 1AA": 60
+    },
+    "rating_promedio": 4.247222222222222,
+    "restaurantes_con_telefono": 171,
+    "restaurantes_con_website": 178
+  },
+  "tipos_cocina": {
+    "Restaurante": 180
+  },
+  "estadisticas_rating": {
+    "promedio": 4.247222222222222,
+    "mediana": 4.3,
+    "maximo": 4.8,
+    "minimo": 2.5,
+    "total_con_rating": 180
+  }
+}

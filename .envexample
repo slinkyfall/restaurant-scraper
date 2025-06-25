@@ -1,0 +1,11 @@
+# .envexample - Plantilla de configuración
+
+# Google Maps API Configuration
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+
+# MongoDB Configuration  
+MONGODB_URI=mongodb://localhost:27017/restaurantes_db
+MONGODB_HOST=localhost
+MONGODB_PORT=27017
+MONGODB_DATABASE=restaurantes_db
+MONGODB_COLLECTION=restaurants
