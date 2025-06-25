@@ -211,6 +211,51 @@ Límites y costos:
 $17 USD por 1000 requests adicionales
 Rate limit: 60 requests/segundo
 ```
+## 🔌 **Documentación Técnica de APIs**
+
+### **Google Maps Places API - Endpoints Utilizados**
+
+#### **1. Places Nearby Search**
+- **URL:** `https://maps.googleapis.com/maps/api/place/nearbysearch/json`
+- **Parámetros:**
+  - `location`: Coordenadas (lat,lng)
+  - `radius`: Radio de búsqueda (5000m)
+  - `type`: Tipo de lugar ('restaurant')
+  - `key`: API Key
+
+#### **2. Place Details**
+- **URL:** `https://maps.googleapis.com/maps/api/place/details/json`
+- **Parámetros:**
+  - `place_id`: ID único del lugar
+  - `fields`: Campos específicos a obtener
+  - `key`: API Key
+
+#### **3. Geocoding API**
+- **URL:** `https://maps.googleapis.com/maps/api/geocode/json`
+- **Parámetros:**
+  - `address`: Código postal
+  - `key`: API Key
+
+### **Campos Extraídos por la API**
+```json
+{
+  "name": "string",
+  "formatted_address": "string", 
+  "formatted_phone_number": "string",
+  "rating": "float",
+  "user_ratings_total": "integer",
+  "type": "array",
+  "opening_hours": "object",
+  "website": "string",
+  "geometry": {
+    "location": {
+      "lat": "float",
+      "lng": "float"
+    }
+  }
+}
+```
+
 ## **MONGODB**
 Opción 1: Local
 ```bash
