@@ -38,7 +38,7 @@ Por cada restaurante se obtiene:
 
 ### **1. Clonar repositorio**
 ```bash
-git clone https://github.com/tu-usuario/restaurantes-scraper.git
+git clone https://github.com/slinkyfall/restaurantes-scraper.git
 cd restaurantes-scraper
 ```
 
